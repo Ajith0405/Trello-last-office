@@ -1,0 +1,93 @@
+.logo_main{
+    display: flex;
+    align-items: center;
+
+}
+.navbar_menus{
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+    gap: 10px;
+}
+.brand_name{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.workspace_avatar{
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    background-color: lightblue;
+    margin-right: 3px;
+    margin-bottom: 0;
+
+}
+.workspace_menu{
+    display: flex;
+    align-items: center;
+}
+.sub_menu{
+    margin-bottom: 0;
+}
+#workspace_menu_tab{
+    padding-bottom:0px;
+    padding-top: 0px;
+}
+#demo-customized-menu{
+    height: 160px;
+}
+.board_create_btn{
+    opacity: 0.9;
+    background-color: white;
+}
+.board_create_btn:hover{
+    opacity: 1.0;
+    background-color: white;
+}
+
+.notification_icon{
+    transform: rotate(30deg);
+    padding: 5px;
+    border-radius: 25px;
+}
+.notification_icon:hover{
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+.helpout_icon{
+    padding: 5px;
+    border-radius: 25px;
+}
+.helpout_icon:hover{
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+.user_avatar_logo{
+    padding: 10px;
+    border-radius: 25px;
+}
+.user_avatar_logo:hover{
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+
+
+.stack_navbar_right{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.topography_logo,
+.css-dudo9s-MuiTypography-root, 
+.logo_main {
+    -webkit-box-flex: unset;
+    -webkit-flex-grow: unset;
+    flex-grow: 0;
+}
